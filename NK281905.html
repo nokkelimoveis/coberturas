@@ -52,16 +52,34 @@
 </head>
 <body>
 <header class="top"><div class="brand">Nokkel</div><div class="code">Código NK281905</div></header>
-<div class="hero"><div class="price">R$ 10.800.000 · Venda</div><h1>Cobertura à venda no Jardim América, com vista para o Clube Paulistano</h1><p>No coração do Jardim América, 450 m² com vista de 360° que inclui o Clube Paulistano, escritório, biblioteca e piscina privativa no pavimento superior.</p></div>
+<div class="hero"><div class="price" id="price-line">R$ 10.800.000 · Venda</div><h1>Cobertura à venda no Jardim América, com vista para o Clube Paulistano</h1><p>No coração do Jardim América, 450 m² com vista de 360° que inclui o Clube Paulistano, escritório, biblioteca e piscina privativa no pavimento superior.</p></div>
 <div class="stats"><div><div class="num">450 m²</div><div class="label">Área útil</div></div><div><div class="num">4</div><div class="label">Dormitórios</div></div><div><div class="num">3</div><div class="label">Suítes</div></div><div><div class="num">5</div><div class="label">Banheiros</div></div><div><div class="num">5</div><div class="label">Vagas</div></div></div>
 <div class="cta-row"><a class="btn primary" href="https://nokkel.com.br/contato?origin_property=NK281905">Agendar visita</a><a class="btn secondary" href="https://wa.me/551141751000">Falar com o consultor</a></div>
 <figure class="property-photo"><img src="https://blintz-properties-sandbox.s3.amazonaws.com/66608c899491515218ff05e0/thumbnail" alt="Cobertura à venda no Jardim América, com vista para o Clube Paulistano" loading="lazy"><figcaption>Cobertura NK281905 · Jardim América</figcaption></figure>
 <section><h2>Sobre o imóvel</h2><p>Cobertura de 450 m² no Jardim América, com vista de 360° que inclui o Clube Paulistano. Três suítes espaçosas — a master com closet — dividem espaço com escritório, biblioteca e home theater no living amplo. A cozinha fechada se integra à área de serviço, despensa e dependência completa de funcionários. No pavimento superior, acessado por duas escadas, a área de lazer reúne piscina privativa e lareira. Cinco vagas de garagem completam a infraestrutura.</p></section>
-<section><h2>Ficha técnica</h2><ul class="plain"><li><span>Tipo</span><span>Cobertura</span></li><li><span>Área útil</span><span>450 m²</span></li><li><span>Área total</span><span>450 m²</span></li><li><span>Dormitórios</span><span>4</span></li><li><span>Suítes</span><span>3</span></li><li><span>Banheiros</span><span>5</span></li><li><span>Vagas</span><span>5</span></li><li><span>Valor do condomínio</span><span>R$ 8.100,00/mês</span></li><li><span>IPTU</span><span>R$ 535,00/mês</span></li><li><span>Valor do m²</span><span>R$ 24.000,00</span></li><li><span>Endereço</span><span>Rua Barão de Capanema, 281 - Jardim América</span></li></ul></section>
+<section><h2>Ficha técnica</h2><ul class="plain"><li><span>Tipo</span><span>Cobertura</span></li><li><span>Área útil</span><span>450 m²</span></li><li><span>Área total</span><span>450 m²</span></li><li><span>Dormitórios</span><span>4</span></li><li><span>Suítes</span><span>3</span></li><li><span>Banheiros</span><span>5</span></li><li><span>Vagas</span><span>5</span></li><li><span>Valor do condomínio</span><span id="v-condo">R$ 8.100,00/mês</span></li><li><span>IPTU</span><span id="v-iptu">R$ 535,00/mês</span></li><li><span>Valor do m²</span><span id="v-m2">R$ 24.000,00</span></li><li><span>Endereço</span><span>Rua Barão de Capanema, 281 - Jardim América</span></li></ul></section>
 <section><h2>Localização e bairro</h2><p>O Jardim América combina ruas arborizadas, segurança e proximidade com o Clube Paulistano, a Avenida Europa e o polo gastronômico dos Jardins — um dos bairros mais consolidados de São Paulo para quem busca discrição e infraestrutura ao mesmo tempo.</p></section>
 <section><h2>Diferenciais</h2><ul class="bullets"><li>450 m² com vista 360° para o Clube Paulistano</li><li>3 suítes, master com closet</li><li>Escritório, biblioteca e home theater</li><li>Piscina privativa e lareira no pavimento superior</li><li>5 vagas de garagem</li><li>Dependência completa de funcionários</li></ul></section>
 <section><h2>Curadoria Nokkel</h2><p class="quote">Este imóvel integra o portfólio curado pela Nokkel — parte dele fora do mercado aberto, com acesso restrito a quem busca discrição e agilidade na negociação. Cada oportunidade passa por avaliação técnica e visita prévia da nossa equipe antes de chegar ao cliente.</p></section>
 <section><h2>Próximo passo</h2><p>Conhecer esta cobertura em Jardim América exige agenda prévia.</p><div class="cta-row"><a class="btn primary" href="https://nokkel.com.br/contato?origin_property=NK281905">Agendar visita com a Nokkel</a><a class="btn secondary" href="https://wa.me/551141751000">Falar com um corretor no WhatsApp</a></div></section>
 <footer><div>Nokkel Imóveis · CRECI 26414-J · <a href="https://nokkel.com.br/imoveis/cobertura-exclusiva-no-jardim-america-vista-panoramica-e-sofisticacao-NK281905" target="_blank" rel="noopener">Ver anúncio original no site Nokkel</a></div><div><a href="https://wa.me/551141751000">(11) 4175-1000</a> · <a href="mailto:atendimento@nokkel.com.br">atendimento@nokkel.com.br</a></div></footer>
+<script>
+/* Valores lidos ao vivo do site da Nokkel; o HTML mantém os últimos valores conhecidos como reserva. */
+(function(){var c="NK281905";
+function m(n,d){return "R$ "+Number(n).toLocaleString("pt-BR",{minimumFractionDigits:d,maximumFractionDigits:d});}
+function s(id,t){var e=document.getElementById(id);if(e&&t)e.textContent=t;}
+fetch("https://nokkel.com.br/api/websites/nokkel.com.br/properties/"+c).then(function(r){return r.ok?r.json():Promise.reject();}).then(function(d){
+var p=[];
+if(d.askingPrice)p.push(m(d.askingPrice,0)+" · Venda");
+if(d.rentPrice)p.push(m(d.rentPrice,0)+"/mês · Aluguel");
+if(p.length)s("price-line",p.join("  |  "));
+if(d.condoFee!=null)s("v-condo",m(d.condoFee,2)+"/mês");
+if(d.tax!=null)s("v-iptu",m(d.tax,2)+"/mês");
+if(d.askingPrice&&d.area)s("v-m2",m(d.askingPrice/d.area,2));
+var l=document.querySelector('script[type="application/ld+json"]');
+if(l&&d.askingPrice){try{var j=JSON.parse(l.textContent);j.offers.price=d.askingPrice;l.textContent=JSON.stringify(j,null,2);}catch(e){}}
+}).catch(function(){});
+})();
+</script>
 </body>
 </html>
